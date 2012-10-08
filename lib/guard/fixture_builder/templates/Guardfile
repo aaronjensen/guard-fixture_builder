@@ -1,0 +1,5 @@
+guard 'fixture_builder' do
+  watch('db/schema.rb')
+  watch(%r{^spec/fabricators/.+\.rb$})
+  watch('spec/support/fixture_builder.rb')
+end
